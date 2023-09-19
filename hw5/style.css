@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin: 0 auto;
+    background: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+    justify-content: center;
+}
+
+.header__item {
+    width: 370px;
+    height: 291px;
+    flex-shrink: 0;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-top: 100px;
+}
+
+.header__img {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.dsc {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.header_dsc {
+    margin-bottom: 25px;
+    width: 93%;
+}
+
+.heder__item__link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.h_center {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.main {
+    background: #fafafa;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__title {
+    margin-top: 92px;
+    margin-bottom: 55px;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.main__dsc {
+    font-size: 16px;
+    width: 55%;
+    text-align: center;
+}
+
+.main__items {
+    margin-bottom: 100px;
+}
+
+.main__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.m_center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.main__item__dsc {
+    color: #aaa;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 39px;
+    width: 68%;
+}
+
+.main__img {
+    width: 370px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.main_subtitle {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.main__btn {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    background: #f25822;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 4px;
+    height: 8px;
+    flex-shrink: 0;
+}

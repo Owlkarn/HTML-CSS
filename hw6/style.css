@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    height: 75px;
+}
+
+.header_left {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 231px;
+    gap: 21px;
+}
+
+.header_logo_link {
+    padding: 18px 10px 19px 10px;
+}
+
+.header_logo {
+    width: 44px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.header_search {
+    padding: 28.21px 10px 20px 10px;
+}
+
+.header_search_img {
+    width: 26.002px;
+    height: 26.792px;
+    flex-shrink: 0;
+}
+
+.header_right {
+    position: relative;
+    margin-right: 240px;
+    margin-top: 26px;
+}
+
+.header_right a {
+    position: absolute;
+    height: 75px;
+    width: 64px;
+    top: -26px;
+}
+
+.header_menu {
+    left: -16px;
+}
+
+.header_profile {
+    left: 49px;
+}
+
+.header_bag {
+    left: 113px;
+}
+
+.header_right_img {
+    width: 158.996px;
+    height: 29px;
+    flex-shrink: 0;
+}
+
+.main {
+    display: flex;
+    background: #f1e4e6;
+    margin-bottom: 65px;
+}
+
+.main_big_img {
+    width: 800.58px;
+    height: 764px;
+    flex-shrink: 0;
+}
+
+.main_right {
+    display: flex;
+    margin-top: 289.9px;
+    margin-left: 63.42px;
+    gap: 16px;
+}
+
+.main_rectangle {
+    width: 12px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+.main_title {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+}
+.second_row {
+    display: flex;
+}
+
+.part1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.part3 {
+    color: #f16d7f;
+}
+
+.menu_part {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.menu_block {
+    position: relative;
+}
+
+.menu_block_img {
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.big_block {
+    grid-column: 1 / span 3;
+}
+
+.big_img {
+    width: 1138.004px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 360px;
+    height: 260px;
+    margin-top: -263px;
+    background: rgba(33, 22, 22, 0.7);
+}
+
+.big_block_text {
+    width: 1138.004px;
+    height: 180px;
+    margin-top: -183px;
+}
+
+.menu_block_subtitle {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu_block_title {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.shop_part {
+    margin-bottom: 48px;
+}
+
+.shop_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 47px;
+}
+
+.shop_subtitle {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.shop_dsc {
+    color: #9f9f9f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shop_items {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.item {
+    background: #f8f8f8;
+}
+
+.item_text {
+    padding: 24px 16px;
+}
+
+.item_subtitle {
+    margin-bottom: 16px;
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.item_dsc {
+    margin-bottom: 16px;
+    color: #5d5d5d;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    width: 94%;
+}
+
+.item_image_2_rec {
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
+    background: #f7e4e2;
+}
+
+.item_price {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item_image_2 {
+    margin-top: 9px;
+    margin-left: 108px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.footer_btn {
+    width: 212px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #f26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border-color: #ff6a6a;
+    background-color: #fff;
+}

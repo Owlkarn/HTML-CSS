@@ -1,0 +1,38 @@
+.carousel {
+    background: #f7f7f7;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    &-control-prev-icon,
+    &-control-next-icon {
+        background-image: none;
+    }
+    &-control-next {
+        justify-content: end;
+        opacity: 1;
+    }
+    &-control-prev {
+        justify-content: start;
+        opacity: 1;
+    }
+    &-item.active {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    &-control-svg-container {
+        width: 47px;
+        height: 47px;
+        padding: 8px;
+        background-color: rgba(42, 42, 42, 0.15);
+    }
+    &-control-next:hover &-control-svg path,
+    &-control-prev:hover &-control-svg path {
+        fill: $pinkTextColour;
+    }
+}
+
+.visually-hidden {
+    margin: 0px !important;
+}

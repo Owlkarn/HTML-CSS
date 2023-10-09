@@ -1,0 +1,85 @@
+.collection {
+    @include flexColumnCenter();
+    position: relative;
+    max-width: 1140px;
+    z-index: 1;
+    background-color: #fff;
+    margin: -60px auto 0;
+    text-align: center;
+    padding: 64px 0;
+    border: 1px solid #eaeaea;
+    margin-bottom: 130px;
+    &_title {
+        color: $pinkTextColour;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 12px;
+    }
+    &_straight_pink_line {
+        margin-bottom: 12px;
+    }
+    &_subtitle {
+        color: #4d4d4d;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 48px;
+    }
+    &_dsc {
+        max-width: 548px;
+        margin-bottom: 32px;
+        color: #5e5e5e;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &_price {
+        color: #ef5b70;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 65px;
+    }
+    &_straight_gray_line {
+        margin-bottom: 64px;
+    }
+    &_choose_menu {
+        display: flex;
+        gap: 23px;
+        margin-bottom: 48px;
+        &_part {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            &_title {
+                color: #6f6e6e;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &_add_to_cart_btn {
+        display: flex;
+        padding: 12px 57px 12px 24px;
+        align-items: center;
+        justify-content: center;
+        gap: 23px;
+        border: 1px solid #f26376;
+        color: #f26376;
+        background-color: #fff;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        transition: background-color 0.6s;
+        &:hover {
+            background-color: $pinkTextColour;
+            color: #fff;
+        }
+        &:hover &_img path {
+            fill: #fff;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    min-height: 75px;
+    position: relative;
+    z-index: 2;
+&_left {
+    display: flex;
+    align-items: flex-end;
+    gap: 41px;
+}&_logo_link {
+    height: 100%;
+}&_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 159px;
+}&_link {
+    padding: 23px 0;
+}
+}

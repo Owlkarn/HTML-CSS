@@ -1,0 +1,29 @@
+.header_lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f3f4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &_title {
+        color: $pinkTextColour;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    &-item_link {
+        color: #636363;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        &_active {
+            color: $pinkTextColour;
+            font-weight: 700;
+        }
+    }
+}

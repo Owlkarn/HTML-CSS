@@ -1,0 +1,36 @@
+@media screen and (max-width: 769px) {
+    .center {
+        padding-left: calc(50% - 367px);
+        padding-right: calc(50% - 367px);
+    }
+
+    .header {
+        padding: 0 4.17%;
+    }
+
+    .main {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+        &_title {
+            font-size: 24px;
+            &_part1 {
+                font-size: 44px;
+            }
+        }
+    }
+
+    .items_showcase {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 48px;
+    }
+
+    .subscribe {
+        @include flexColumnCenter();
+    }
+}

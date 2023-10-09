@@ -1,0 +1,20 @@
+$pinkTextColour: #f16d7f;
+@mixin flexColumnCenter() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@import "general";
+@import "header";
+@import "header_lower";
+@import "main";
+@import "carousel";
+@import "collection";
+@import "mobile-menu";
+@import "categories";
+@import "items";
+@import "advantages";
+@import "subscribe";
+@import "footer";
+@import "max_w769";
+@import "max_w376";

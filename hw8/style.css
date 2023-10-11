@@ -610,6 +610,29 @@ summary::-webkit-details-marker {
   background-color: #f16d7f;
   color: #fff;
 }
+.items_pagination {
+  padding: 15px 16px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ebebeb;
+  max-width: 282px;
+  margin: 0 auto;
+}
+.items_pagination_arrow:hover path {
+  fill: #f16d7f;
+}
+.items_pagination_link {
+  color: #c4c4c4;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+}
+.items_pagination_link_active {
+  color: #f16d7f;
+}
+.items_pagination_link:hover {
+  color: #f16d7f;
+}
 
 .advantages {
   display: flex;

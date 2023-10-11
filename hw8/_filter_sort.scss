@@ -1,0 +1,110 @@
+.filter_sort {
+    height: 133px;
+    position: relative;
+    display: flex;
+    padding-top: 39px;
+    gap: 30px;
+}
+.filter {
+    position: relative;
+    padding-top: 12px;
+    max-width: 360px;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+    &[open] {
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        .filter_summary_text,
+        path {
+            color: $pinkTextColour;
+            fill: $pinkTextColour;
+        }
+    }
+    &_summary {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        padding-left: 16px;
+
+        &_text {
+            color: #000;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+    &_items {
+        padding: 0 16px 16px;
+        background: #fff;
+    }
+    &_item {
+        margin-top: 16px;
+
+        &_box {
+            &[open] .filter_item_box_name {
+                color: $pinkTextColour;
+            }
+            &_name {
+                color: #6f6e6e;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 8px 11px 11px;
+                border-bottom: 1px solid #ebebeb;
+                border-left: 5px solid $pinkTextColour;
+            }
+            &_links {
+                display: flex;
+                flex-direction: column;
+                gap: 11px;
+                padding: 24px 16px;
+            }
+            &_link {
+                color: #6f6e6e;
+                font-size: 14px;
+                font-weight: 400;
+                &:hover {
+                    color: $pinkTextColour;
+                }
+            }
+        }
+    }
+}
+
+.sort {
+    padding-top: 12px;
+    display: flex;
+    align-items: start;
+    gap: 28px;
+    &_details {
+        position: relative;
+    }
+    &_criterion {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &_name {
+            color: #6f6e6e;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    &_box {
+        position: absolute;
+        z-index: 1;
+        background: #fff;
+        box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+        padding: 7px 30px 11px 9px;
+        &_check {
+            display: flex;
+            gap: 9px;
+            &_label {
+                color: #6f6e6e;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}

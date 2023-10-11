@@ -63,10 +63,12 @@
     }
     &_add_to_cart_btn {
         display: flex;
-        padding: 12px 57px 12px 24px;
         align-items: center;
         justify-content: center;
         gap: 23px;
+        max-width: 212px;
+        width: 100%;
+        height: 48px;
         border: 1px solid #f26376;
         color: #f26376;
         background-color: #fff;

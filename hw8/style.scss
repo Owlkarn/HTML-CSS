@@ -1,10 +1,6 @@
 $pinkTextColour: #f16d7f;
 $widthBurgerMenu: 232px;
-@mixin flexColumnCenter() {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+@import "mixin";
 @import "general";
 @import "header";
 @import "burger";
@@ -13,6 +9,7 @@ $widthBurgerMenu: 232px;
 @import "main";
 @import "carousel";
 @import "cart";
+@import "registration";
 @import "collection";
 @import "categories";
 @import "items";

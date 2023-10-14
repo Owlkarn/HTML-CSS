@@ -245,7 +245,6 @@ summary::-webkit-details-marker {
 .sort {
   padding-top: 12px;
   display: flex;
-  align-items: start;
   gap: 28px;
 }
 .sort_details {
@@ -419,6 +418,7 @@ summary::-webkit-details-marker {
   margin: 0;
 }
 .cart_left_items_item_desc_input:focus {
+  outline: none;
   box-shadow: 0 0 10px 10px rgba(241, 109, 127, 0.7);
 }
 .cart_left_btns {
@@ -480,6 +480,7 @@ summary::-webkit-details-marker {
   margin: 0;
 }
 .cart_right_address_input:focus {
+  outline: none;
   box-shadow: 0 0 10px 10px rgba(241, 109, 127, 0.7);
 }
 .cart_right_btn {
@@ -510,7 +511,7 @@ summary::-webkit-details-marker {
 .cart_right_checkout_total {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   color: #4a4a4a;
   font-family: Lato;
   font-size: 11px;
@@ -555,6 +556,125 @@ summary::-webkit-details-marker {
 }
 .cart_right_checkout_btn:active {
   transform: scale(0.95);
+}
+
+.registration {
+  margin-top: 64px;
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+  gap: 11%;
+}
+.registration__left {
+  width: 32%;
+}
+.registration__input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration__input {
+  color: #222;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  height: 45px;
+  padding-left: 17px;
+  border: 1px solid #a4a4a4;
+}
+.registration__input::-moz-placeholder {
+  color: #b1b1b1;
+}
+.registration__input::placeholder {
+  color: #b1b1b1;
+}
+.registration__input[type=number]::-webkit-inner-spin-button, .registration__input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.registration__input:focus {
+  outline: none;
+  box-shadow: 0 0 10px 10px rgba(241, 109, 127, 0.7);
+}
+.registration__left__title {
+  color: #222;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+}
+.registration__input-gender {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+.registration__input-gender_label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 300;
+}
+.registration__input-gender_point {
+  width: 17px;
+  height: 17px;
+}
+.registration__text {
+  color: #b1b1b1;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.registration__btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f16d7f;
+  color: #fff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px 30px;
+  border: none;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.registration__btn:hover {
+  transform: scale(1.05);
+  background-color: #e05c6e;
+}
+.registration__btn:active {
+  transform: scale(0.95);
+}
+.registration__right {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+  width: 57%;
+}
+.registration__right__title {
+  margin-bottom: 22px;
+  font-size: 24px;
+  font-weight: 300;
+}
+.registration__dsc {
+  margin-bottom: 21px;
+}
+.registration__loyality-perks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.registration__perk {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  height: 24px;
 }
 
 .collection {

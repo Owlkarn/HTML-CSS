@@ -1,0 +1,101 @@
+.registration {
+    margin-top: 64px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    gap: 11%;
+    &__left {
+        width: 32%;
+    }
+    &__input-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__input {
+        @include inputFormStyle();
+    }
+    &__left__title {
+        color: #222;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    &__input-gender {
+        margin-top: 34px;
+        margin-bottom: 34px;
+        display: flex;
+        text-align: center;
+        gap: 20px;
+
+        &_label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #000;
+            font-family: Lato;
+            font-size: 11px;
+            font-weight: 300;
+        }
+        &_point {
+            width: 17px;
+            height: 17px;
+        }
+    }
+    &__text {
+        color: #b1b1b1;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: $pinkTextColour;
+        color: #fff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 16px 30px;
+        border: none;
+        transition:
+            transform 0.2s ease,
+            background-color 0.3s ease;
+        &:hover {
+            transform: scale(1.05);
+            background-color: #e05c6e;
+        }
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+    &__right {
+        color: #000;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 300;
+        width: 57%;
+        &__title {
+            margin-bottom: 22px;
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
+    &__dsc {
+        margin-bottom: 21px;
+    }
+    &__loyality-perks {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    &__perk {
+        display: flex;
+        gap: 23px;
+        align-items: center;
+        height: 24px;
+    }
+}

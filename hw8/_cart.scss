@@ -40,10 +40,12 @@
                     &_quantity {
                         display: flex;
                         align-items: center;
-                        gap: 24px;
+                        max-width: 166px;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
                     }
                     &_input {
-                        width: 44px;
+                        max-width: 44px;
                         height: 25px;
                         text-align: center;
                         color: #656565;
@@ -88,6 +90,9 @@
             }
         }
     }
+    &_address {
+        margin-bottom: 57px;
+    }
     &_right {
         padding-top: 17px;
         width: 32%;
@@ -98,7 +103,7 @@
             font-weight: 300;
             margin-bottom: 20px;
         }
-        &_address {
+        &_address-data {
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -115,7 +120,6 @@
             font-family: Lato;
             font-size: 11px;
             font-weight: 300;
-            margin-bottom: 57px;
             transition:
                 transform 0.2s ease,
                 background-color 0.3s ease,

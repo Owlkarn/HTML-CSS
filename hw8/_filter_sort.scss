@@ -5,19 +5,28 @@
     padding-top: 39px;
     gap: 30px;
 }
-.filter {
+
+.filter-box {
     position: relative;
-    padding-top: 12px;
     max-width: 360px;
     width: 100%;
+}
+
+.filter {
+    position: absolute;
+    padding-top: 12px;
     z-index: 10;
     background: #fff;
     &[open] {
         box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        width: 360px;
         .filter_summary_text,
         path {
             color: $pinkTextColour;
             fill: $pinkTextColour;
+        }
+        .filter-box {
+            width: 360px;
         }
     }
     &_summary {
@@ -74,6 +83,7 @@
 .sort {
     padding-top: 12px;
     display: flex;
+    flex-wrap: wrap;
     gap: 28px;
     &_details {
         position: relative;

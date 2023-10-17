@@ -5,7 +5,7 @@
     justify-content: space-between;
     gap: 11%;
     &__left {
-        width: 32%;
+        max-width: 360px;
     }
     &__input-form {
         display: flex;
@@ -96,6 +96,8 @@
         display: flex;
         gap: 23px;
         align-items: center;
-        height: 24px;
+        &_svg {
+            width: 20px;
+        }
     }
 }

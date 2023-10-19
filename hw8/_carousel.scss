@@ -21,10 +21,10 @@
         padding-top: 10px;
         padding-bottom: 40px;
     }
-    &-control-svg-container {
+    &-control-svg {
+        padding: 8px;
         width: 47px;
         height: 47px;
-        padding: 8px;
         background-color: rgba(42, 42, 42, 0.15);
     }
     &-control-next:hover &-control-svg path,

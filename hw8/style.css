@@ -352,10 +352,10 @@ summary::-webkit-details-marker {
   padding-top: 10px;
   padding-bottom: 40px;
 }
-.carousel-control-svg-container {
+.carousel-control-svg {
+  padding: 8px;
   width: 47px;
   height: 47px;
-  padding: 8px;
   background-color: rgba(42, 42, 42, 0.15);
 }
 .carousel-control-next:hover .carousel-control-svg path, .carousel-control-prev:hover .carousel-control-svg path {
